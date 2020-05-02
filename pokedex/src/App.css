@@ -1,0 +1,8 @@
+.main{
+    margin: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+    justify-content: space-around;
+}

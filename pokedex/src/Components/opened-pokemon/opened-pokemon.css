@@ -1,0 +1,29 @@
+.characterization-table{
+    width : 400px;
+    height: 700px;
+    border: solid 3px gray;
+    text-align: center;
+    font-size: 18px;
+}
+.table-avatar{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.table{
+    width: 95%;
+
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.cell{
+    border: 1px solid gray;
+    width: 50%;
+    height: 30px;
+}
