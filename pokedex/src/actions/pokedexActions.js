@@ -47,7 +47,7 @@ export const getPokemons = (limit) => {
 
         axios({
             method: 'get',
-            url: `http://pokeapi.co/api/v1/pokemon/?limit=${limit}`
+            url: `https://pokeapi.co/api/v1/pokemon/?limit=${limit}`
         }).then(res => {
             dispatch(getPokemonsSuccessAction(res.data.results));
             for (let i = 1; i <= limit; i++) {
@@ -87,7 +87,7 @@ const getTypesAction = (data) => {
 const getTypes = ()=>{
    return  axios({
         method: 'get',
-        url: `http://pokeapi.co/api/v1/type/?limit=999`
+        url: `https://pokeapi.co/api/v1/type/?limit=999`
     })
 };
 export const changeFilter = (newValue)=>{
